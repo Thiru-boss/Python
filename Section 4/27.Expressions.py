@@ -1,0 +1,16 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> length = int(input("Enter length of a Rectangle
+...                    
+SyntaxError: unterminated string literal (detected at line 1)
+>>> length = int(input("Enter length of a Rectangle"))
+...                    
+Enter length of a Rectangle50
+>>> breath = int (input("Enter breath of a rectangle"))
+...                    
+Enter breath of a rectangle10
+>>> area = length*breath
+...                    
+>>> print ("area is" ,area)
+...                    
+area is 500
